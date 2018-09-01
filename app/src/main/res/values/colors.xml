@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#3f75e0</color>
+    <color name="colorPrimaryDark">#3743ad</color>
+    <color name="colorAccent">#3f74e0</color>
+    <color name="colorSecondaryAccent">#4287f4</color>
+    <color name="colorSecondaryAccentTrans">#334287f4</color>
+    <color name="colorPrimaryDarkTrans">#333743ad</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="foodColorDrawable">#F4B9CD</color>
+    <color name="billColorDrawable">#D1C6F5</color>
+    <color name="transportationColorDrawable">#B5EBF6</color>
+    <color name="giftColorDrawable">#e1bdf3</color>
+    <color name="movieColorDrawable">#ffcfd4</color>
+    <color name="savingsColorDrawable">#c3e5c8</color>
+    <color name="shoppingColorDrawable">#cfc6ec</color>
+    <color name="fitnessColorDrawable">#bfdeff</color>
+
+    <color name="deleteColor">#db3235</color>
+    <color name="deleteColorTrans">#ffcfd4</color>
+    <color name="savingsColor">#2f9c47</color>
 </resources>
