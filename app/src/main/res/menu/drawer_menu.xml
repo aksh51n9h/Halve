@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/drawerHome"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_round_account_balance_wallet"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/drawerSettings"
+            android:checkable="true"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/drawerNotifications"
+            android:checkable="true"
+            android:icon="@drawable/ic_twotone_notification_important"
+            android:title="@string/notifications" />
+        <item
+            android:id="@+id/drawerHelp"
+            android:checkable="true"
+            android:icon="@drawable/ic_twotone_help"
+            android:title="@string/help" />
+    </group>
+</menu>

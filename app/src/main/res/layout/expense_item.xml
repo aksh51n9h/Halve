@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/expenseItemIcon"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/expenseItemType"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/expenseItemTitle"
+        app:srcCompat="@drawable/ic_round_fastfood" />
+
+    <TextView
+        android:id="@+id/expenseItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/expenditure"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintStart_toEndOf="@+id/expenseItemIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@sample/sampleexps" />
+
+    <TextView
+        android:id="@+id/expenseItemType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/expense_type"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/expenseItemIcon"
+        app:layout_constraintTop_toBottomOf="@+id/expenseItemTitle"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@sample/sampletypes" />
+
+    <TextView
+        android:id="@+id/expenseItemAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/amount_spend"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/expenseItemType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/expenseItemTitle"
+        tools:text="@sample/sampleamounts" />
+</androidx.constraintlayout.widget.ConstraintLayout>

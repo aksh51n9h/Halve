@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Halve</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="my_expenses">My Expenses</string>
+    <string name="expenditure">Lunch</string>
+    <string name="expense_type">Food</string>
+    <string name="amount_spend">₹ %1$s</string>
+    <string name="today">Today</string>
+    <string name="date_view">16 Aug</string>
+    <string name="end">----</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="select_type">Select Type</string>
+    <string name="close">Close</string>
+    <string name="home">My Expenses</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="help">Help</string>
+    <string name="display_name">Username</string>
+    <string name="user_id">com.example@domain.com</string>
 </resources>
