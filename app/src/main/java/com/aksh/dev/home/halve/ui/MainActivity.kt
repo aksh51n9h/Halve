@@ -72,7 +72,6 @@ class MainActivity : AppCompatActivity(), SelectorListener {
 
         val itemSwipeListener = ItemTouchHelper(itemSwipeListener())
         itemSwipeListener.attachToRecyclerView(allExpensesList)
-
     }
 
     private fun itemSwipeListener(): ItemTouchHelper.SimpleCallback {
